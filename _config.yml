@@ -33,7 +33,7 @@ lang: "zh"
 author: "ZPom"
 title: "Welcome to ZPom'blog!"
 description: "李制蓬的个人小站。"
-keywords: "Java, JavaScript"
+keywords: "Java, JavaScript, HTML, CSS, GIT"
 favicon: "/img/favicon.ico"
 
 ################
@@ -56,8 +56,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "日常学习记录。"
-  #- text: "Where’s your will to be weird?"
+  - text: "李制蓬的日常学习记录。"
+  - text: "欢迎光临我的小站！"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -92,7 +92,7 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
+email-share: Flase
 fb-share: False
 twitter-share: False
 linkedin-share: False
@@ -149,8 +149,8 @@ social:
     #url: "https://facebook.com/"
   #- title: "twitter"
     #url: "https://twitter.com/"
-  - title: "github"
-    url: "https://github.com/ZPom"
+  #- title: "github"
+    #url: "https://github.com/ZPom"
   #- title: "bitcoin"
     #url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   #- title: "rss"
@@ -177,10 +177,10 @@ keybase-in-footer: False
 # Sections shown in the index page
 
 pages_list:
-  關於: 'about'
+  关于: 'about'
   博客: 'latest-post'
-  時間軸: 'timeline'
-  聯繫方式: 'contact'
+  时间轴: 'timeline'
+  联系方式: 'contact'
 
 # Exclusion list from the generated _site
 
