@@ -20,9 +20,9 @@
           <h4>
             <strong>{{ page.date | date_to_string }}</strong>
             <small>
-              . category:
+              . 分类:
               <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                {{ page.category }}
+                {{ page.category-title }}
               </a>.
               <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
               <br />
