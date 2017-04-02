@@ -54,7 +54,7 @@ loop: True
 loop-count: True # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
-delete-delay: 5000
+delete-delay: 3000
 lines: # You can add HTML Tags in the Text
   - text: "李制蓬的日常学习记录。"
   - text: "欢迎光临我的小站！"
